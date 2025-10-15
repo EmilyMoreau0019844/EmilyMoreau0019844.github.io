@@ -20,7 +20,6 @@ $(function () {  // initialize canvas and context when able to
     createPlatform(-50, canvas.height - 10, canvas.width + 100, 200, "navy"); // bottom wall
     createPlatform(-50, -50, 50, canvas.height + 500); // left wall
     createPlatform(canvas.width, -50, 50, canvas.height + 100); // right wall
-
     //////////////////////////////////
     // ONLY CHANGE BELOW THIS POINT //
     //////////////////////////////////
@@ -35,8 +34,8 @@ createPlatform(300,600,50,10)
 createPlatform(500,500,200,10)
 createPlatform(800,400,100,10)
 createPlatform(700,300,50,10)
-
-
+createPlatform(600,200,100,10)
+createPlatform(100,100,300,10)
 
     // TODO 3 - Create Collectables
 
