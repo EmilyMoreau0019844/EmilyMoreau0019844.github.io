@@ -37,6 +37,7 @@ createPlatform(700,300,50,10)
 createPlatform(600,200,100,10)
 createPlatform(100,100,300,10)
 
+
     // TODO 3 - Create Collectables
 createCollectable("diamond",110,650)
 createCollectable("grace",600,450)
