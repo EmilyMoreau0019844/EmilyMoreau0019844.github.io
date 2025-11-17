@@ -85,8 +85,13 @@
         positionX = positionX + speed
           if(positionX > boardWidth){
            speed = speed * -1
+          }
+           if(positionX < 0){
+            speed *= -1
+      
 
-        }
+      }
+      
           
         }
 
@@ -102,7 +107,7 @@
           changeBoxText(0)
           changeBoxText(points)
           points = points + 1
-          speed = speed + 3
+          speed = 3 * points + 10
           
 
 
